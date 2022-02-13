@@ -21,5 +21,3 @@ const importData  = async () => {
     }
 };
 importData();
-//produstsData();
-//Product();
