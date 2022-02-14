@@ -4,7 +4,7 @@ import './index.css';
 const HomeScreen = () => {
     return (
         <div className='homescreen'>
-            HomeScreen
+            <h2 className='homescreen-tilte'>Latest Product</h2>
         </div>
     );
 }
