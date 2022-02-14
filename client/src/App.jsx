@@ -4,11 +4,13 @@ import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import Navbar from './components/Navbar';
+import Backdrop from './components/Backdrop';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Backdrop />
       <main>
          <Switch>
            <Route exact path="/" component={HomeScreen} />

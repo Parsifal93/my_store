@@ -2,7 +2,7 @@ import './index.css';
 
 function Backdrop() {
   return (
-    <div></div>
+    <div className="backdrop"></div>
   )
 }
 
