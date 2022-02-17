@@ -5,12 +5,12 @@ import './index.css';
 
 import { Link } from "react-router-dom";
 
-const Product = ({ imageUrl, description, price, name, productId, product, id}) => {
+const Product = ({ imageUrl, description, price, name, productId, item, qty}) => {
 
     const dispatch = useDispatch();
 
   const handleClick = () => {
-    dispatch(addToCart(productId));
+    dispatch(addToCart(productId,  1));
    
    
   }
@@ -29,7 +29,8 @@ const Product = ({ imageUrl, description, price, name, productId, product, id}) 
           View
         </Link>
         <button type="button" className="info__button" onClick={handleClick }
-        >
+       
+       >
                   Add To Cart 
             
                 </button>
