@@ -26,9 +26,9 @@ const Product = ({ imageUrl, description, price, name, productId, item, qty}) =>
         <p className="info__price">${price}</p>
 
         <Link to={`/product/${productId}`} className="info__button">
-          View
+          More...
         </Link>
-        <button type="button" className="info__button" onClick={handleClick }
+        <button className="info__button" onClick={handleClick }
        
        >
                   Add To Cart 
